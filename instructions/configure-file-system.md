@@ -50,7 +50,7 @@
     * The name of the directory, `dev`, should be displayed in the standard output.
 * Verify that newly created directory is visible in the project explorer, by executing `explorer .` or `open .` respectively
     * The directory should be displayed as a folder in the project explorer
-<img src="./home-directory_create-dev.gif">
+<img src="./home-directory_mkdir-dev.gif">
 
 #### Part 6 - Change Directory to the `dev` directory
 * To change the _current working directory_ to `dev`, execute `cd dev` from the home directory.
