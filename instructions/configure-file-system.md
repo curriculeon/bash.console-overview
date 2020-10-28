@@ -19,7 +19,7 @@
     * enter `whoami` in the terminal.
     * The name of the account that is currently signed in should be displayed in the terminal's standard output.
 * In the examples below, the name of the user-account is hunter
-<img src="./pwd.gif">
+<img src="./whoami.gif">
 
 
 #### Part 3 - Home Directory
