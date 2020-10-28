@@ -1,7 +1,7 @@
 # Intro to Terminal Interactions
 * **Purpose** - To learn basic command line skills to later be leveraged when using other command line tools.
 
-## Jargon
+## Glossary of Terms
 * `Shell` - a program used to interpret input from, and send output to, the _terminal_
 * `Terminal` - a text-based interface used to interact with the _shell_
 * `Resource` - an allocation of memory which has the propencity to be occupied by a file.
@@ -44,14 +44,14 @@
 
 #### Part 2 - Displaying your Username
 * Upon opening the terminal, verify what your _username_ is.
-    * enter `whoami` in the terminal.
+    * execute `whoami` in the terminal.
     * The name of the account that is currently signed in should be displayed in the terminal's standard output.
 * In the examples below, the name of the user-account is hunter
 <img src="./imgs/whoami.gif">
 
 
 #### Part 3 - Home Directory
-* To navigate to the _home directory_ enter `cd ~` in the terminal
+* To navigate to the _home directory_ execute `cd ~` in the terminal
     * `cd` is a _command_ used to _change directories_
     * `~` is an _alias_ recognized by the shell to reference the _home directory_
 * Verify that you are in your home directory by executing `pwd` to _print working directory_.
@@ -164,9 +164,9 @@
 
 #### Part 8 - Create Directories Within `non-empty-directory`
 * Execute `mkdir child-directory-1` to create a new directory in the `non-empty-directory`
-* Execute `ls` to verify that the newly created directory, named `child-directory-1` has been created in directory named `non-empty-direcory`.`
+* Execute `ls` to verify that the newly created directory, named `child-directory-1` has been created in directory named `non-empty-directory`.`
 * Execute `mkdir child-directory-2` to create a new directory in the `non-empty-directory`
-* Execute `ls` to verify that the newly created directory, named `child-directory-2` has been created in directory named `non-empty-direcory`.`
+* Execute `ls` to verify that the newly created directory, named `child-directory-2` has been created in directory named `non-empty-directory`.`
 
 
 #### Part 9 - Create Files Within `non-empty-directory`
@@ -176,14 +176,14 @@
 * Execute `touch some-mp3-file.mp3` to create a new mp3 file in the `non-empty-directory`
 * Execute `ls` to verify that each of the child-resources are displayed
 
-```
-child-directory-1
-child-directory-2
-some-file
-some-mp3-file.mp3
-some-text-file.txt
-some-webpage-file.html
-```
+    ```
+    child-directory-1
+    child-directory-2
+    some-file
+    some-mp3-file.mp3
+    some-text-file.txt
+    some-webpage-file.html
+    ```
 
 #### Part 10 - Open File in `nano` editor
 * Execute `nano some-text-file.txt` to open the file named `some-text-file.txt` in the nano-editor.
@@ -217,7 +217,7 @@ some-webpage-file.html
 
 
 #### Part 14 - Fetching Command History
-* Execute `history` to display the list of all the commands that have been executing in this terminal instance.
+* Execute `history` to display the list of all the commands that have been executed in this terminal instance.
 * Execute `history > submission.txt` to _pipe_ the output of the `history` command to a file named `submission.txt`
     * _piping_ is a mechanism for injecting data from one place to another
 * Execute `cat submission.txt` to verify that the `submission.txt` file contains the expected contents.
