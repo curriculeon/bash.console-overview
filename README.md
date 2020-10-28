@@ -4,19 +4,20 @@
 ## Jargon
 * `Shell` - a program used to interpret input from, and send output to, the _terminal_
 * `Terminal` - a text-based interface used to interact with the _shell_
-* `File` - a resource for recording data **on a storage device**.
+* `Resource` - an allocation of memory with the propencity to be occupied by a file.
+* `File` - a particular instance of allocated memory used for recording data **on a storage device**.
 * `File System` - a relational structure (hierarchical relations) of _files_ and _directories_.
 * `File Explorer` - a graphical representation of a _file system_.
 * `Directory` - a containment structure which has reference to other _files_, and possibly other directories.
 * `Folder` - a graphical representation of a _directory_
-* `Home Directory` - The directory containing files for a given user on a multiuser operating system
-* `Current Working Directory` - the presently referenced directory in the _shell_
-* `Parent Directory` - the directory above another directory
-* `Child Directory` - the directory contained by another directory
+* `Home Directory` - the _directory_ containing files for a given user on a multiuser operating system
+* `Current Working Directory` - the _directory_ presently referenced in the _terminal_, thus referenced by the _shell_. 
+* `Parent Directory` - a directory _containing_ another directory; the directory "above" another directory
+* `Child Directory` - a directory _contained by_ another directory; the directory "below" another directory
 * `Dev Directory` - a _child directory_ of the _home directory_ that is used to store application-development-projects and local code-bases
 * `Root Directory` - the _parent directory_ of a particular file system or subsystem
-* `Command` - a key word that is executed in the terminal, thus executed by the shell, to access and interact with a program
-* `Alias` - a symbol used to refer to a _resource_: a file, particularly a program or service.
+* `Command` - a key word that is executed in the terminal, thus executed by the shell, to access and interact with a particularly program or service.
+* `Alias` - a symbol used to refer to a _resource_, particularly a program or service.
 
 <hr><hr><hr>
 
