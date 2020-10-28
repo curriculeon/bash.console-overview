@@ -27,7 +27,7 @@
     * `cd` is a _command_ used to _change directories_
     * `~` is an alias recognized by the shell to reference the _home directory_
 * Verify that you are in your home directory by executing `pwd` to _print working directory_.
-    * The _file path_ pointing to your a directory with your _username_ should be displayed in the terminal's standard output.
+    * The _file path_ pointing to a directory with your _username_ should be displayed in the terminal's standard output.
 <img src="./home-directory_pwd.gif">
     
 
