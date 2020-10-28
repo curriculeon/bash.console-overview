@@ -74,7 +74,7 @@
 * To create a new directory, named `dev`, execute `mkdir dev` from the home-directory.
     * `mkdir` is a _command_ used to create a new directory
     * `dev` is the name of the directory to be created
-* Verify that newly created directory is visible in the shell, by executing `ls`.
+* Verify that newly created directory is visible in the terminal, by executing `ls`.
     * The name of the directory, `dev`, should be displayed in the standard output.
 * Verify that newly created directory is visible in the project explorer, by executing `explorer .` or `open .` respectively
     * The directory should be displayed as a folder in the project explorer
