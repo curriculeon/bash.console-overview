@@ -63,7 +63,7 @@
 <img src="./imgs/home-directory_ls.gif">
 
 #### Part 5 - Opening the File Explorer
-* To open the file explorer to get a graphical representation of the file system
+* To get a graphical representation of the file system, open the _file explorer_.
     * execute `explorer .` from the Windows git-bash terminal
     * execute `open .` from the OSX terminal
 <img src="./imgs/home-directory_file-explorer.gif">
