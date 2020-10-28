@@ -4,7 +4,7 @@
 ## Jargon
 * `Shell` - a program used to interpret input from, and send output to, the _terminal_
 * `Terminal` - a text-based interface used to interact with the _shell_
-* `Resource` - an allocation of memory with the propencity to be occupied by a file.
+* `Resource` - an allocation of memory which has the propencity to be occupied by a file.
 * `File` - a particular instance of allocated memory used for recording data **on a storage device**.
 * `File System` - a relational structure (hierarchical relations) of _files_ and _directories_.
 * `File Explorer` - a graphical representation of a _file system_.
