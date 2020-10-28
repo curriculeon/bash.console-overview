@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 # Intro to Terminal Interactions
 * **Purpose** - To learn basic command line skills to later be leveraged when using other command line tools.
 
