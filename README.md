@@ -122,7 +122,7 @@
     * `/` is a symbol used to express `navigate to`
 * Execute `pwd` to display the _current working directory_ to verify that the command has executed properly.
 * Execute `ls` to verify the contents of this directory.
-<img src="./home-directory_cd-dev.gif">
+<img src="./imgs/cd-dev.gif">
 
 
 
