@@ -88,6 +88,7 @@ some-webpage-file.html
 * Enter your name in the nano editor.
 * From the keyboard, hold `Ctrl` and press `X` to exit the editor
 * From the keyboard, press `Y`, when prompted to `Save modified buffer`.
+* From the keyboard, press `Enter`, when prompted to `Save File Name`.
 * Execute `cat some-text-file.txt` to verify that the contents entered in the `nano` editor have been saved in the `some-text-file.txt` file.
 <img src="./imgs/nano-editor.gif">
 
