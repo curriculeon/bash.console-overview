@@ -5,7 +5,7 @@
 * `Shell` - a program used to interpret input from, and send output to, the _terminal_
 * `Terminal` - a text-based interface used to interact with the _shell_
 * `File` - a resource for recording data **on a storage device**.
-* `File System` - any representation of the structure of _files_.
+* `File System` - a relational structure (hierarchical relations) of _files_ and _directories_.
 * `File Explorer` - a graphical representation of a _file system_.
 * `Directory` - a containment structure which has reference to other _files_, and possibly other directories.
 * `Folder` - a graphical representation of a _directory_
