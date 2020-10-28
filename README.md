@@ -11,12 +11,12 @@
 * `Folder` - a graphical representation of a _directory_
 * `Home Directory` - The directory containing files for a given user on a multiuser operating system
 * `Current Working Directory` - the presently referenced directory in the _shell_
-* `Root Directory` - the top-level directory for a particular file system or subsystem
 * `Parent Directory` - the directory above another directory
 * `Child Directory` - the directory contained by another directory
 * `Dev Directory` - a _child directory_ of the _home directory_ that is used to store application-development-projects and local code-bases
-* `Command` - a key word that is executing in the shell to access and interact with a program
-* `Alias` - a symbol used to refer to a resource: a file, program, or service.
+* `Root Directory` - the _parent directory_ of a particular file system or subsystem
+* `Command` - a key word that is executed in the terminal, thus executed by the shell, to access and interact with a program
+* `Alias` - a symbol used to refer to a _resource_: a file, particularly a program or service.
 
 <hr><hr><hr>
 
@@ -51,7 +51,7 @@
 #### Part 3 - Home Directory
 * To navigate to the _home directory_ enter `cd ~` in the terminal
     * `cd` is a _command_ used to _change directories_
-    * `~` is an alias recognized by the shell to reference the _home directory_
+    * `~` is an _alias_ recognized by the shell to reference the _home directory_
 * Verify that you are in your home directory by executing `pwd` to _print working directory_.
     * The _file path_ pointing to a directory with your _username_ should be displayed in the terminal's standard output.
 <img src="./imgs/home-directory_pwd.gif">
@@ -104,21 +104,22 @@
 
 #### Part 1 - Opening The Terminal
 
-* To open the git-bash terminal in OSX
-    * press the `Windows` key to open _windows search_.
-    * in the search bar, enter `git bash`.
-<img src="./imgs/open-git-bash.gif">
-
 * To open the terminal in OSX
     * hold `Command` and press `Space` to open the _spotlight search_.
     * in the search bar, enter `terminal`
+
+* To open the git-bash terminal in Windows OS
+    * press the `Windows` key to open _windows search_.
+    * in the search bar, enter `git bash`.
+
+<img src="./imgs/open-git-bash.gif">
 
 
 #### Part 2 - Change Directory to the `dev` directory
 * Execute `cd ~/dev` to change the _current working directory_ to `dev`
 * `cd ~/dev` can be read verbally as "change directory to `home`. From here `navigate to` directory named `dev`"
     * `cd` is a _command_ used to _change directories_
-    * `~` is an alias recognized by the shell to reference the _home directory_
+    * `~` is an _alias_ recognized by the shell to reference the _home directory_
     * `/` is a symbol used to express `navigate to`
 * Execute `pwd` to display the _current working directory_ to verify that the command has executed properly.
 * Execute `ls` to verify the contents of this directory.
@@ -133,20 +134,20 @@
 * Execute `cd ./my-first-project` to change the _current working directory_ to the newly created directory.
 * `cd ./my-first-project` can be read verbally as "change directory to `current working directory`. From here, `navigate to` directory named `my-first-project`"
     * `cd` is a _command_ used to _change directories_
-    * `.` is an alias recognized by the shell to reference the `current working directory`
+    * `.` is an _alias_ recognized by the shell to reference the `current working directory`
     * `/` is a symbol used to express "from here, navigate to"
 * Execute `pwd` to verify that you have navigated to the directory properly.
 
 #### Part 4 - Create Directory Named `empty-directory`
-* Execute `mkdir empty-directory` from the `my-first-project` directory to create a new directory named, `empty-directory`
-* Execute `ls` to verify that the newly created directory, named `empty-directory` has been created in the `my-first-project` directory.
-* Execute `cd ./empty-directory` to change the _current working directory_ to the newly created director
+* Execute `mkdir empty-directory` from the `my-first-project` directory to create a new directory, named `empty-directory`
+* Execute `ls` to verify that the newly created directory, named `empty-directory`, has been created in the `my-first-project` directory.
+* Execute `cd ./empty-directory` to change the _current working directory_ to the newly created directory
 * Execute `pwd` to verify that you have navigated to the directory properly.
 * Execute `ls` to verify that this directory is empty.
 
 #### Part 5 - Navigate Back to `my-first-project` directory
 * Execute `cd ..` to navigate to the _parent directory_ of the _current working directory_.
-    * `..` is an alias recognized by the shell to reference the `parent directory`.
+    * `..` is an _alias_ recognized by the shell to reference the `parent directory`.
     * A _parent directory_ is a directory which contains another directory.
         * (for example, `my-first-project` is a _child directory_ of the _parent directory_ named `dev`)
 * Execute `pwd` to verify that you have navigated to the directory properly.
@@ -194,7 +195,7 @@ some-webpage-file.html
 
 #### Part 11 - Navigate Back to `my-first-project` directory
 * Execute `cd ..` to change to the _parent directory_ of the _current working directory_.
-    * `..` is an alias recognized by the shell to reference the `parent directory`.
+    * `..` is an _alias_ recognized by the shell to reference the `parent directory`.
     * A _parent directory_ is the directory which contains another directory.
         * (for example, `non-empty-directory` is a _child directory _ of the _parent directory_ named `my-first-project`)
 * Execute `pwd` to verify that you have navigated to the directory properly.
