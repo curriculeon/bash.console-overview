@@ -8,13 +8,14 @@
 * `File` - a particular instance of allocated memory used for recording data **on a storage device**.
 * `File System` - a relational structure (hierarchical relations) of _files_ and _directories_.
 * `File Explorer` - a graphical representation of a _file system_.
-* `Directory` - a containment structure which has reference to other _files_, and possibly other directories.
+* `File Path` - the uniquely named location for a particular _file_.
+* `Directory` - a special type of _file_ which has reference to other files, and possibly other directories
 * `Folder` - a graphical representation of a _directory_
-* `Home Directory` - the _directory_ containing files for a given user on a multiuser operating system
+* `Home Directory` - the _directory_ containing _files_ for a given user on a multiuser operating system
 * `Current Working Directory` - the _directory_ presently referenced in the _terminal_, thus referenced by the _shell_. 
-* `Parent Directory` - a directory _containing_ another directory; the directory "above" another directory
-* `Child Directory` - a directory _contained by_ another directory; the directory "below" another directory
-* `Dev Directory` - a _child directory_ of the _home directory_ that is used to store application-development-projects and local code-bases
+* `Parent Directory` - a directory **containing** another directory; the directory "above" another directory
+* `Child Directory` - a directory **contained by** another directory; the directory "below" another directory
+* `Dev Directory` - a _child directory_ of the _home directory_ that is used to store application-development-projects and local-code-bases
 * `Root Directory` - the _parent directory_ of a particular file system or subsystem
 * `Command` - a key word that is executed in the terminal, thus executed by the shell, to access and interact with a particularly program or service.
 * `Alias` - a symbol used to refer to a _resource_, particularly a program or service.
