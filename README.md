@@ -70,7 +70,7 @@
     * execute `open .` from the OSX terminal
 <img src="./imgs/home-directory_file-explorer.gif">
 
-#### Part 6 - Creating a Application-Development directory
+#### Part 6 - Creating an Application-Development directory
 * To create a new directory, named `dev`, execute `mkdir dev` from the home-directory.
     * `mkdir` is a _command_ used to create a new directory
     * `dev` is the name of the directory to be created
