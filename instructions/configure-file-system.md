@@ -8,11 +8,13 @@
 * To open the git-bash terminal in OSX
     * press the `Windows` key to open _windows search_.
     * in the search bar, enter `git bash`.
-<img src="./imgs/open-git-bash.gif">
 
 * To open the terminal in OSX
     * hold `Command` and press `Space` to open the _spotlight search_.
     * in the search bar, enter `terminal`
+
+<img src="./imgs/open-git-bash.gif">
+
 
 #### Part 2 - Displaying your Username
 * Upon opening the terminal, verify what your _username_ is.
