@@ -19,7 +19,7 @@
     * enter `whoami` in the terminal.
     * The name of the account that is currently signed in should be displayed in the terminal's standard output.
 * In the examples below, the name of the user-account is hunter
-<img src="./whoami.gif">
+<img src="./imgs/whoami.gif">
 
 
 #### Part 3 - Home Directory
@@ -28,19 +28,19 @@
     * `~` is an alias recognized by the shell to reference the _home directory_
 * Verify that you are in your home directory by executing `pwd` to _print working directory_.
     * The _file path_ pointing to a directory with your _username_ should be displayed in the terminal's standard output.
-<img src="./home-directory_pwd.gif">
+<img src="./imgs/home-directory_pwd.gif">
     
 
 
 #### Part 3 - Listing Files in the Current Directory
 * To list all of the files in the current directory, execute `ls`
-<img src="./home-directory_ls.gif">
+<img src="./imgs/home-directory_ls.gif">
 
 #### Part 4 - Opening the File Explorer
 * To open the file explorer to get a graphical representation of the file system
     * execute `explorer .` from the Windows git-bash terminal
     * execute `open .` from the OSX terminal
-<img src="./home-directory_file-explorer.gif">
+<img src="./imgs/home-directory_file-explorer.gif">
 
 #### Part 5 - Creating a Application-Development directory
 * To create a new directory, named `dev`, execute `mkdir dev` from the home-directory.
@@ -50,7 +50,7 @@
     * The name of the directory, `dev`, should be displayed in the standard output.
 * Verify that newly created directory is visible in the project explorer, by executing `explorer .` or `open .` respectively
     * The directory should be displayed as a folder in the project explorer
-<img src="./home-directory_mkdir-dev.gif">
+<img src="./imgs/home-directory_mkdir-dev.gif">
 
 #### Part 6 - Change Directory to the `dev` directory
 * To change the _current working directory_ to `dev`, execute `cd dev` from the home directory.
@@ -58,6 +58,6 @@
     * The name of the current working directory, `~/dev`, should be displayed in the standard output.
 * Verify that this directory is empty by executing `ls`
     * The standard output should not display anything
-<img src="./home-directory_cd-dev.gif">
+<img src="./imgs/home-directory_cd-dev.gif">
 
 
