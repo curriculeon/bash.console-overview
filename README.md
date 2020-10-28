@@ -29,13 +29,13 @@
 
 #### Part 1 - Opening The Terminal
 
-* To open the git-bash terminal in OSX
-    * press the `Windows` key to open _windows search_.
-    * in the search bar, enter `git bash`.
-
 * To open the terminal in OSX
     * hold `Command` and press `Space` to open the _spotlight search_.
     * in the search bar, enter `terminal`
+
+* To open the git-bash terminal in Windows OS
+    * press the `Windows` key to open _windows search_.
+    * in the search bar, enter `git bash`.
 
 <img src="./imgs/open-git-bash.gif">
 
@@ -58,17 +58,17 @@
     
 
 
-#### Part 3 - Listing Files in the Current Directory
+#### Part 4 - Listing Files in the Current Directory
 * To list all of the files in the current directory, execute `ls`
 <img src="./imgs/home-directory_ls.gif">
 
-#### Part 4 - Opening the File Explorer
+#### Part 5 - Opening the File Explorer
 * To open the file explorer to get a graphical representation of the file system
     * execute `explorer .` from the Windows git-bash terminal
     * execute `open .` from the OSX terminal
 <img src="./imgs/home-directory_file-explorer.gif">
 
-#### Part 5 - Creating a Application-Development directory
+#### Part 6 - Creating a Application-Development directory
 * To create a new directory, named `dev`, execute `mkdir dev` from the home-directory.
     * `mkdir` is a _command_ used to create a new directory
     * `dev` is the name of the directory to be created
@@ -78,7 +78,7 @@
     * The directory should be displayed as a folder in the project explorer
 <img src="./imgs/home-directory_mkdir-dev.gif">
 
-#### Part 6 - Change Directory to the `dev` directory
+#### Part 7 - Change Directory to the `dev` directory
 * To change the _current working directory_ to `dev`, execute `cd dev` from the home directory.
 * Verify that the command has executed properly by executing `pwd` to display the _current working directory_.
     * The name of the current working directory, `~/dev`, should be displayed in the standard output.
@@ -116,7 +116,7 @@
 
 #### Part 2 - Change Directory to the `dev` directory
 * Execute `cd ~/dev` to change the _current working directory_ to `dev`
-* `cd ~/dev` can be read verbally as "change directory to `home`, from here `navigate to` directory named `dev`"
+* `cd ~/dev` can be read verbally as "change directory to `home`. From here `navigate to` directory named `dev`"
     * `cd` is a _command_ used to _change directories_
     * `~` is an alias recognized by the shell to reference the _home directory_
     * `/` is a symbol used to express `navigate to`
@@ -131,24 +131,24 @@
 * Execute `mkdir my-first-project` from the `dev` directory to create a new directory named `my-first-project` in the `dev` directory
 * Execute `ls` to verify that the directory has been created properly.
 * Execute `cd ./my-first-project` to change the _current working directory_ to the newly created directory.
-* `cd ./my-first-project` can be read verbally as "change directory to `current working directory`, from here `navigate to` directory named `my-first-project`"
+* `cd ./my-first-project` can be read verbally as "change directory to `current working directory`. From here, `navigate to` directory named `my-first-project`"
     * `cd` is a _command_ used to _change directories_
     * `.` is an alias recognized by the shell to reference the `current working directory`
-    * `/` is a symbol used to express `from here, navigate to`
+    * `/` is a symbol used to express "from here, navigate to"
 * Execute `pwd` to verify that you have navigated to the directory properly.
 
-#### Part 5 - Create Directory Named `empty-directory`
+#### Part 4 - Create Directory Named `empty-directory`
 * Execute `mkdir empty-directory` from the `my-first-project` directory to create a new directory named, `empty-directory`
-* Execute `ls` to verify that the newly created directory, named has been created in the `my-first-project` directory.
+* Execute `ls` to verify that the newly created directory, named `empty-directory` has been created in the `my-first-project` directory.
 * Execute `cd ./empty-directory` to change the _current working directory_ to the newly created director
 * Execute `pwd` to verify that you have navigated to the directory properly.
 * Execute `ls` to verify that this directory is empty.
 
-#### Part 6 - Navigate Back to `my-first-project` directory
-* Execute `cd ..` to change to the _parent directory_ of the _current working directory_.
+#### Part 5 - Navigate Back to `my-first-project` directory
+* Execute `cd ..` to navigate to the _parent directory_ of the _current working directory_.
     * `..` is an alias recognized by the shell to reference the `parent directory`.
-    * A _parent directory_ is the directory which contains another directory.
-        * (for example, `my-first-project` is a _child directory _ of the _parent directory_ named `dev`)
+    * A _parent directory_ is a directory which contains another directory.
+        * (for example, `my-first-project` is a _child directory_ of the _parent directory_ named `dev`)
 * Execute `pwd` to verify that you have navigated to the directory properly.
 * Execute `ls` to verify this directory contains a directory named `empty-directory`.
 
