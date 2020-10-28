@@ -18,7 +18,7 @@
 * `Dev Directory` - a _child directory_ of the _home directory_ that is used to store application-development-projects and local-code-bases
 * `Root Directory` - the _parent directory_ of a particular file system or subsystem
 * `Command` - a key word that is executed in the terminal, thus executed by the shell, to access and interact with a particularly program or service.
-* `Alias` - a symbol used to refer to a _resource_, particularly a program or service.
+* `Alias` - a symbol used to refer to a particular _filepath_.
 
 <hr><hr><hr>
 
@@ -46,7 +46,7 @@
 * Upon opening the terminal, verify what your _username_ is.
     * execute `whoami` in the terminal.
     * The name of the account that is currently signed in should be displayed in the terminal's standard output.
-* In the examples below, the name of the user-account is hunter
+* In the examples below, the name of the user-account is `hunte`
 <img src="./imgs/whoami.gif">
 
 
